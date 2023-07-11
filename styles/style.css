@@ -65,3 +65,121 @@ body {
     transform: translateY(4px);
 }
 
+/* our features flower style start */
+
+.Sec-02-features-container {
+    background-color: #FFF;
+}
+
+.Sec-02-feature-content {
+    text-align: center;
+    padding-top: 170px;
+
+}
+
+.Sec-02-primary-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.Sec-02-feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    width: 600px;
+    margin: auto;
+}
+
+.Sec-02-features-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.Sec-02-img-box {
+    width: 420px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    margin-top: 50px;
+    position: relative;
+    box-shadow: 4px 4px 10px gainsboro;
+    border: none;
+    cursor: pointer;
+
+}
+
+.Sec-02-img-box:hover {
+    background-color: #f8e7e7;
+}
+
+.Sec-02-features-flower {
+    width: 270px;
+    height: 420px;
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+
+.Sec-02-flower-title {
+    text-align: center;
+    margin-top: 55px;
+    font-weight: 800px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Sec-02-second-img {
+    bottom: 55px;
+    width: 270px;
+    height: 320px;
+
+}
+
+.Sec-02-second-img-box {
+    background-color: rgba(5, 151, 160, 0.15);
+
+}
+
+.Sec-02-third-img-box {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+/* service section style start */
+
+.Sec-03-service-container {
+    height: 420px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Sec-03-service-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    gap: 200px;
+    padding: 130px 113px;
+    width: 64%;
+    border-radius: 10px;
+}
+
+.Sec-03-services {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
