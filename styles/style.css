@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* banner section style start, I Consider banner section as Sec-01 */
+
+.Sec-01-banner-container {
+    height: 840px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 0px 230px 0px 240px;
+    gap: 100px;
+
+
+}
+
+.Sec-01-bann-container .bann-img {
+    padding-top: 50px;
+    width: 550px;
+    height: 790px;
+
+}
+
+.Sec-01-bann-content {
+    display: block;
+
+}
+
+.Sec-01-bann-title {
+    font-size: 52px;
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.Sec-01-bann-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    transform: translateY(4px);
+}
+
